@@ -36,7 +36,7 @@ The benefits of using Docker Compose is that it allows developers to run and man
 
 ## Challenges and Learnings 
 
-Because of Azure vCPU and Public IP limits on the Azure student account (no 1-vCPU VM sizes were available in any region), the Storefront and Order Service run on the same VM. They are still treated as separate microservices, with different repositories, independent configurations, and separate ports to simulate a distributed environment.
+Because of high latency and frequent disconnections in VS Code on the B2s VM, all tasks and the demo were completed using the terminal.
 
 ---
 
